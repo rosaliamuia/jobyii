@@ -1,0 +1,379 @@
+@import url('fonts.css');
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+     /* Theme colors */
+
+     --text-gray: #3f4954;
+     --text-light: #686666da;
+     --bg-color: #0f0f0f;
+     --white: #ffffff;
+     --midnight: #cdb599FF;
+
+     /* theme font-family */
+    --Abel : 'Abel', cursive;
+    --Anton : 'Anton', cursive;
+    --Josefin: 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic: 'Livvic', cursive;
+}
+
+/* Nav */
+/* 
+.navbar {
+    background-color: #ADEFD1FF;
+} */
+
+
+ .nav-link{
+    font-size: 1.1rem;
+    font-family: var(--Abel);
+    color: #00203FFF!important ;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+background-color:#ADEFD1FF;
+}
+
+
+.navbar .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Lexend)
+}
+
+.navbar >input {
+    font-family: var(--Abel);
+}
+
+
+#owlc{
+    width: 100%;
+    height: 90vh;
+}
+
+.slide {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card-category:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06); 
+    background-color: #ADEFD1FF;
+    cursor: pointer;
+    /* color: #ADEFD1FF; */
+
+}
+
+.card-category >img:hover{
+    
+    color: #00203FFF;
+
+}
+
+.cl{
+    color: #00203FFF;
+    
+}
+
+.cl2{
+    color: #ADEFD1FF
+}
+
+
+
+.slide-3 {
+    background-image: url(../images/bg-3.jpg);
+}
+/* 
+.search-sec{
+    padding-bottom: 13rem;
+    font-size: 1.875rem;
+    height: 10rem!important;
+    line-height: 1.5;
+} */
+.search-slt3 {
+    border-radius: 25px 0 0 25px;
+    border: none!important;
+     
+}
+.bd {
+    border: none;
+    outline: none;
+    font-size: 0.875rem; 
+    line-height: 2.5;
+} 
+.wrn-btn2 {
+    background-color: 	#5bc0de
+;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    font-size: 20px;
+}
+ .wrn-btn2:focus{
+     border: none;
+     outline: none;
+ }
+.ws {
+    margin-left: 1rem;
+}
+
+.explore h1{
+	line-height: 60px;
+    color: black!important;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 13rem;
+    font-family: var(--Lexend)
+
+}
+
+.categories h5 {
+    font-family: var(--Josefin)
+}
+
+/* footer */
+
+
+
+.copyr{
+    text-align:left;
+    font-size: 10px;
+    padding-left: 7rem;
+}
+
+/* x Footer x  */
+
+.cart button{
+    border-radius: 33px;
+    /* background-color: #CCFBFE; */
+    padding: 10px 40px; 
+    align-items: center;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    cursor: pointer;
+    color:black;
+    margin-left: 33rem!important;
+    outline: none;
+}
+
+.cart button:hover{
+    transform: scale(0.9);
+}
+
+
+
+.ct1{
+    align-items: center;
+    color: black;
+}
+
+
+
+.fx{
+    font-family: var(--Livvic);
+}
+ .fx2{
+     font-family: var(--Josefin);
+ }
+
+ .fx3{
+     font-family: var(--Abel)
+ }
+
+.fx4{
+    text-align: center;
+}
+
+
+.mlr {
+    margin-left: 4rem;
+}
+
+/* Browse jobs */
+
+.checked {
+    color: orange;
+  }
+
+.heart {
+    color: red;
+}
+
+
+h2{
+    font-family: var(--Lexend);
+}
+            /* Footer */
+footer{
+    position: relative;
+    background-color:#ADEFD1FF;
+    color: black;
+   
+}
+
+footer h2{
+    color: #00203FFF;
+}
+footer .instagram div >img{
+    width:25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer .container{
+    /* padding: 2rem .9rem;
+    flex-grow: 1; */
+    font-size: 14px;
+}
+
+footer .container p{
+    font-family: var(--Lexend)
+}
+
+footer .form-element{
+    background:black;
+    display: inline-block;
+}
+
+footer .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josephine);
+    font-size: 1rem!important;
+    width: 86%;
+}
+
+footer .form-element span{
+    background: #00203FFF;;
+    padding: .5rem .5rem;
+    cursor: pointer;
+}
+
+footer .follow div i{
+    padding: 0 1rem;
+    color:  #00203FFF
+}
+
+footer .rights{
+    
+    color: #3f4954;
+    font-size: 1px!important;
+}
+
+footer .rights h4 a{
+     color:  #00203FFF!important;
+    
+} 
+
+footer .move-up{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+footer .move-up span{
+    color: black;
+    cursor:pointer;
+    color:  #00203FFF;
+}
+/* 
+Tutorial */
+
+.cch {
+    height: 150px;
+}
+
+
+
+
+ .btn button{
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+ .btn button:hover{
+    transform: scale(0.9);
+}
+
+/* Post Job page */
+.fts {
+    font-family: var(--Abel);
+}
+
+/* Browse Candidates Page */
+
+#cand-carousel{
+    width: 100%;
+    height: 70vh;
+}
+
+.cand-title{
+    background-image: url(../bg-2.jpg);
+    width: 100%;
+    height: 70vh;
+}
+
+.down2{
+    margin-top: 16rem;
+}
+
+
+.ct{
+    margin-top: 6rem;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+   
+}
+@media (max-width: 768px) {
+    
+
+}
+
+@media (max-width: 576px) {
+/* .search-sec{
+    width: 40%;
+} */
+
+}
+
+ @media (max-width: 400px) {
+/* .search-sec{
+        width: 30%;
+} 
+
+.cart {
+    justify-content: start;
+} */
+
+}
+
